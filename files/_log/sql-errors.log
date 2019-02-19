@@ -1,0 +1,2030 @@
+[2019-02-12 06:37:45] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:45] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:50] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:51] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:56] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:56] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:37:58] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:09] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:14] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:17] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:18] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:30] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:38:30] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:13] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  front/change.form.php:124                          CommonGLPI->display()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:13] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:15] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 06:39:18] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_changetasks` WHERE `changes_id` = '1' AND (`is_private` = '0' OR `users_id` = '4') ORDER BY `date` DESC
+  Error: Unknown column 'is_private' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/commondbtm.class.php:524                       DBmysql->request()
+  inc/commonitilobject.class.php:6292                CommonDBTM->find()
+  inc/change.class.php:191                           CommonITILObject->getTimelineItems()
+  inc/commonglpi.class.php:210                       Change->getTabNameForItem()
+  inc/change.class.php:252                           CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       Change->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"4@ubuntu10"} 
+[2019-02-12 11:56:03] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"2@ubuntu10","mem_usage":"0.001\", 2.60Mio)"} 
+[2019-02-12 11:58:19] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS `cpt` FROM (SELECT DISTINCT
+                  NULL                           AS `id`,
+                  CONCAT('f_',`fanswer`.`id`)    AS `display_id`,
+                  `fanswer`.`id`                 AS `original_id`,
+                  'PluginFormcreatorFormAnswer' AS `sub_itemtype`,
+                  `f`.`name`                     AS `name`,
+                  `fanswer`.`status`             AS `status`,
+                  `fanswer`.`request_date`       AS `date_creation`,
+                  `fanswer`.`request_date`       AS `date_mod`,
+                  `fanswer`.`entities_id`        AS `entities_id`,
+                  `fanswer`.`is_recursive`       AS `is_recursive`,
+                  `fanswer`.`requester_id`       AS `requester_id`,
+                  `fanswer`.`users_id_validator` AS `validator_id`,
+                  `fanswer`.`comment`            AS `comment`
+               FROM `glpi_plugin_formcreator_forms_answers` AS `fanswer`
+               LEFT JOIN `glpi_plugin_formcreator_forms` AS `f`
+                  ON`f`.`id` = `fanswer`.`plugin_formcreator_forms_id`
+               LEFT JOIN `glpi_items_tickets` AS `itic`
+                  ON `itic`.`items_id` = `fanswer`.`id`
+                  AND `itic`.`itemtype` = 'PluginFormcreatorFormAnswer'
+               WHERE `fanswer`.`is_deleted` = '0'
+               GROUP BY `original_id`
+               HAVING COUNT(`itic`.`tickets_id`) != 1
+
+               UNION
+
+               SELECT DISTINCT
+                  NULL                          AS `id`,
+                  CONCAT('t_',`tic`.`id`)       AS `display_id`,
+                  `tic`.`id`                    AS `original_id`,
+                  'Ticket'                      AS `sub_itemtype`,
+                  `tic`.`name`                  AS `name`,
+                  `tic`.`status`                AS `status`,
+                  `tic`.`date`                  AS `date_creation`,
+                  `tic`.`date_mod`              AS `date_mod`,
+                  `tic`.`entities_id`           AS `entities_id`,
+                  0                             AS `is_recursive`,
+                  `tic`.`users_id_recipient`    AS `requester_id`,
+                  0                             AS `validator_id`,
+                  `tic`.`content`               AS `comment`
+               FROM `glpi_tickets` AS `tic`
+               LEFT JOIN `glpi_items_tickets` AS `itic`
+                  ON `itic`.`tickets_id` = `tic`.`id`
+                  AND `itic`.`itemtype` = 'PluginFormcreatorFormAnswer'
+               WHERE `tic`.`is_deleted` = 0
+               GROUP BY `original_id`
+               HAVING COUNT(`itic`.`items_id`) <= 1) AS `issues`
+  Error: Table 'glpidb.glpi_plugin_formcreator_forms_answers' doesn't exist
+  Backtrace :
+  plugins/formcreator/inc/issue.class.php:125        
+  plugins/formcreator/install/install.php:85         PluginFormcreatorIssue::cronSyncIssues()
+  plugins/formcreator/hook.php:48                    PluginFormcreatorInstall->install()
+  inc/plugin.class.php:482                           plugin_formcreator_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:16:18] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS `cpt` FROM (SELECT DISTINCT
+                  NULL                           AS `id`,
+                  CONCAT('f_',`fanswer`.`id`)    AS `display_id`,
+                  `fanswer`.`id`                 AS `original_id`,
+                  'PluginFormcreatorFormAnswer' AS `sub_itemtype`,
+                  `f`.`name`                     AS `name`,
+                  `fanswer`.`status`             AS `status`,
+                  `fanswer`.`request_date`       AS `date_creation`,
+                  `fanswer`.`request_date`       AS `date_mod`,
+                  `fanswer`.`entities_id`        AS `entities_id`,
+                  `fanswer`.`is_recursive`       AS `is_recursive`,
+                  `fanswer`.`requester_id`       AS `requester_id`,
+                  `fanswer`.`users_id_validator` AS `validator_id`,
+                  `fanswer`.`comment`            AS `comment`
+               FROM `glpi_plugin_formcreator_forms_answers` AS `fanswer`
+               LEFT JOIN `glpi_plugin_formcreator_forms` AS `f`
+                  ON`f`.`id` = `fanswer`.`plugin_formcreator_forms_id`
+               LEFT JOIN `glpi_items_tickets` AS `itic`
+                  ON `itic`.`items_id` = `fanswer`.`id`
+                  AND `itic`.`itemtype` = 'PluginFormcreatorFormAnswer'
+               WHERE `fanswer`.`is_deleted` = '0'
+               GROUP BY `original_id`
+               HAVING COUNT(`itic`.`tickets_id`) != 1
+
+               UNION
+
+               SELECT DISTINCT
+                  NULL                          AS `id`,
+                  CONCAT('t_',`tic`.`id`)       AS `display_id`,
+                  `tic`.`id`                    AS `original_id`,
+                  'Ticket'                      AS `sub_itemtype`,
+                  `tic`.`name`                  AS `name`,
+                  `tic`.`status`                AS `status`,
+                  `tic`.`date`                  AS `date_creation`,
+                  `tic`.`date_mod`              AS `date_mod`,
+                  `tic`.`entities_id`           AS `entities_id`,
+                  0                             AS `is_recursive`,
+                  `tic`.`users_id_recipient`    AS `requester_id`,
+                  0                             AS `validator_id`,
+                  `tic`.`content`               AS `comment`
+               FROM `glpi_tickets` AS `tic`
+               LEFT JOIN `glpi_items_tickets` AS `itic`
+                  ON `itic`.`tickets_id` = `tic`.`id`
+                  AND `itic`.`itemtype` = 'PluginFormcreatorFormAnswer'
+               WHERE `tic`.`is_deleted` = 0
+               GROUP BY `original_id`
+               HAVING COUNT(`itic`.`items_id`) <= 1) AS `issues`
+  Error: Table 'glpidb.glpi_plugin_formcreator_forms_answers' doesn't exist
+  Backtrace :
+  plugins/formcreator/inc/issue.class.php:125        
+  plugins/formcreator/install/install.php:85         PluginFormcreatorIssue::cronSyncIssues()
+  plugins/formcreator/hook.php:48                    PluginFormcreatorInstall->install()
+  inc/plugin.class.php:482                           plugin_formcreator_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:18:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:18:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:18:45] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:18:48] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:19:10] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:19:23] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:19:27] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-14 03:19:29] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:51:38] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:51:38] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:51:55] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:52:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:52:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:54:20] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:54:20] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:55:17] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 02:55:18] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:03:36] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:03:37] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:12:40] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:12:40] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:16:27] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:16:27] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:18:32] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:18:32] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:21:46] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:21:47] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:22:44] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:22:45] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:23:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:23:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:26:06] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:26:06] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:27:33] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:27:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:29:12] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:29:12] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:31:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:31:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:34:43] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:34:44] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:36:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:36:31] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:56:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT glpi_tickets.id AS id, glpi_tickets.name AS descr, glpi_tickets.date AS date, glpi_tickets.solvedate as solvedate, glpi_tickets.status, glpi_tickets.time_to_resolve AS duedate, sla_waiting_duration AS slawait, glpi_tickets.type,
+FROM_UNIXTIME( UNIX_TIMESTAMP( `glpi_tickets`.`solvedate` ) , '%Y-%m' ) AS date_unix, AVG( glpi_tickets.takeintoaccount_delay_stat ) AS time,
+glpi_tickets.time_to_own AS tto, glpi_tickets.takeintoaccount_delay_stat AS tia, glpi_tickets.date_creation AS aceite
+FROM glpi_tickets
+WHERE glpi_tickets.is_deleted = 0
+AND glpi_tickets.slas_tto_id = 0
+AND glpi_tickets.date BETWEEN '2019-02-01 00:00:00' AND '2019-02-15 23:59:59'
+AND glpi_tickets.status IN ('2','1','3','4','5','6')
+AND glpi_tickets.entities_id IN (0) 
+GROUP BY id DESC
+ORDER BY id DESC 
+  Error: Unknown column 'glpi_tickets.slas_tto_id' in 'where clause'
+  Backtrace :
+  plugins/dashboard/front/reports/rel_sltsa.php:291  
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:56:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT glpi_tickets.id AS total, FROM_UNIXTIME( UNIX_TIMESTAMP( `glpi_tickets`.`solvedate` ) , '%Y-%m' ) AS date_unix, AVG( glpi_tickets.solve_delay_stat ) AS time
+FROM glpi_tickets
+WHERE glpi_tickets.is_deleted = 0
+AND glpi_tickets.slas_tto_id = 0
+AND glpi_tickets.date BETWEEN '2019-02-01 00:00:00' AND '2019-02-15 23:59:59'
+AND glpi_tickets.status IN ('2','1','3','4','5','6')
+AND glpi_tickets.entities_id IN (0) 
+GROUP BY id
+ORDER BY id DESC 
+  Error: Unknown column 'glpi_tickets.slas_tto_id' in 'where clause'
+  Backtrace :
+  plugins/dashboard/front/reports/rel_sltsa.php:306  
+  {"user":"2@ubuntu10","mem_usage":"0.001\", 2.93Mio)"} 
+[2019-02-15 03:56:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT glpi_tickets.id AS id, glpi_tickets.name AS descr, glpi_tickets.date AS date, glpi_tickets.solvedate as solvedate, glpi_tickets.status, glpi_tickets.time_to_resolve AS duedate, sla_waiting_duration AS slawait, glpi_tickets.type,
+FROM_UNIXTIME( UNIX_TIMESTAMP( `glpi_tickets`.`solvedate` ) , '%Y-%m' ) AS date_unix, AVG( glpi_tickets.takeintoaccount_delay_stat ) AS time,
+glpi_tickets.time_to_own AS tto, glpi_tickets.takeintoaccount_delay_stat AS tia, glpi_tickets.date_creation AS aceite
+FROM glpi_tickets
+WHERE glpi_tickets.is_deleted = 0
+AND glpi_tickets.slas_tto_id = 0
+AND glpi_tickets.date BETWEEN '2019-01-28 00:00:00' AND '2019-02-15 23:59:59'
+AND glpi_tickets.status IN ('2','1','3','4','5','6')
+AND glpi_tickets.entities_id IN (0) 
+GROUP BY id DESC
+ORDER BY id DESC 
+  Error: Unknown column 'glpi_tickets.slas_tto_id' in 'where clause'
+  Backtrace :
+  plugins/dashboard/front/reports/rel_sltsa.php:291  
+  {"user":"2@ubuntu10"} 
+[2019-02-15 03:56:41] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT glpi_tickets.id AS total, FROM_UNIXTIME( UNIX_TIMESTAMP( `glpi_tickets`.`solvedate` ) , '%Y-%m' ) AS date_unix, AVG( glpi_tickets.solve_delay_stat ) AS time
+FROM glpi_tickets
+WHERE glpi_tickets.is_deleted = 0
+AND glpi_tickets.slas_tto_id = 0
+AND glpi_tickets.date BETWEEN '2019-01-28 00:00:00' AND '2019-02-15 23:59:59'
+AND glpi_tickets.status IN ('2','1','3','4','5','6')
+AND glpi_tickets.entities_id IN (0) 
+GROUP BY id
+ORDER BY id DESC 
+  Error: Unknown column 'glpi_tickets.slas_tto_id' in 'where clause'
+  Backtrace :
+  plugins/dashboard/front/reports/rel_sltsa.php:306  
+  {"user":"2@ubuntu10","mem_usage":"0.000\", 2.93Mio)"} 
+[2019-02-15 03:56:46] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT count(id) AS quant
+	FROM glpi_problems
+	WHERE is_deleted = 0
+	
+	AND glpi_tickets.entities_id IN (0) 
+  Error: Unknown column 'glpi_tickets.entities_id' in 'where clause'
+  Backtrace :
+  ...ins/dashboard/front/metrics/metrics.inc.php:390 
+  plugins/dashboard/front/metrics/index.php:21       include()
+  {"user":"2@ubuntu10","mem_usage":"0.001\", 3.20Mio)"} 
+[2019-02-15 04:14:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:14:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:15:37] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:15:38] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:51:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:51:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.006\", 8.41Mio)"} 
+[2019-02-15 04:51:35] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:51:51] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:52:07] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:52:07] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.40Mio)"} 
+[2019-02-15 04:52:08] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:52:33] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 04:52:33] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 04:52:34] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:05] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.005\", 8.41Mio)"} 
+[2019-02-15 05:02:06] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:11] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:37] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:37] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 05:02:38] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:46] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:02:51] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:03:04] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:03:04] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:441                       CommonGLPI->defineAllTabs()
+  ajax/common.tabs.php:92                            CommonGLPI::displayStandardTab()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:03:06] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:03:15] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:04:26] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:04:26] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 05:04:27] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:04:58] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:04:58] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 05:04:59] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:05:17] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:05:17] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 05:05:17] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:06:13] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:06:13] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.41Mio)"} 
+[2019-02-15 05:06:14] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:06:56] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:07:47] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:07:47] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.40Mio)"} 
+[2019-02-15 05:07:47] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:32:42] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:634                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1002                      CommonGLPI->showPrimaryForm()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:32:42] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10","mem_usage":"0.004\", 8.40Mio)"} 
+[2019-02-15 05:32:43] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:37:59] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:37:59] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:51:12] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:51:12] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 05:51:19] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 06:22:25] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  inc/commonglpi.class.php:707                       CommonGLPI->defineAllTabs()
+  inc/commonglpi.class.php:1005                      CommonGLPI->showTabsContent()
+  plugins/formcreator/front/form.form.php:155        CommonGLPI->display()
+  {"user":"2@ubuntu10"} 
+[2019-02-15 06:22:26] glpisqllog.ERROR: DBmysql::query() in /var/www/hras.mycloud.kz/inc/dbmysql.class.php line 177
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_plugin_formcreator_formanswers` WHERE `plugin_formcreator_forms_id` = '1' AND `is_deleted` = '0'
+  Error: Unknown column 'is_deleted' in 'where clause'
+  Backtrace :
+  inc/dbmysqliterator.class.php:95                   
+  inc/dbmysql.class.php:569                          DBmysqlIterator->execute()
+  inc/dbutils.class.php:329                          DBmysql->request()
+  inc/dbutils.class.php:371                          DbUtils->countElementsInTable()
+  plugins/formcreator/inc/formanswer.class.php:367   DbUtils->countElementsInTableForMyEntities()
+  inc/commonglpi.class.php:210                       PluginFormcreatorFormAnswer->getTabNameForItem()
+  plugins/formcreator/inc/form.class.php:584         CommonGLPI->addStandardTab()
+  inc/commonglpi.class.php:165                       PluginFormcreatorForm->defineTabs()
+  ajax/updatecurrenttab.php:46                       CommonGLPI->defineAllTabs()
+  {"user":"2@ubuntu10"} 
