@@ -1,6 +1,0 @@
-2019-02-12 11:58:19 [2@ubuntu10]
-1 секунда for "create database schema" @ 2019-02-12 11:58:19 [2@ubuntu10]
-0 секунд for "Configure existing entities" @ 2019-02-12 11:58:19 [2@ubuntu10]
-0 секунд for "create request type" @ 2019-02-12 11:58:19 [2@ubuntu10]
-0 секунд for "create default display preferences" @ 2019-02-12 11:58:19 [2@ubuntu10]
-0 секунд for "Миграция данных - glpi_displaypreferences" @ 
