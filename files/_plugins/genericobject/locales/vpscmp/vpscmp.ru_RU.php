@@ -25,7 +25,7 @@
  @since     2009
  ---------------------------------------------------------------------- */
 
-$LANG['genericobject']['PluginGenericobjectVpscmp'][0]="VPS";
+$LANG['genericobject']['PluginGenericobjectVpscmp'][0]="VPS - Виртуальные машины";
 $LANG['genericobject']['PluginGenericobjectVpscmp'][1]="RAM";
 $LANG['genericobject']['PluginGenericobjectVpscmp'][2]="CPU";
 $LANG['genericobject']['PluginGenericobjectVpscmp'][3]="HDD";
@@ -33,4 +33,6 @@ $LANG['genericobject']['PluginGenericobjectVpscmp'][4]="Email заказчика
 $LANG['genericobject']['PluginGenericobjectVpscmp'][5]="Логин";
 $LANG['genericobject']['PluginGenericobjectVpscmp'][6]="Пароль";
 $LANG['genericobject']['PluginGenericobjectVpscmp'][7]="Операционная система";
+$LANG['genericobject']['PluginGenericobjectVpscmp'][8]="На сервере";
+
 
